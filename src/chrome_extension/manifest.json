@@ -1,0 +1,14 @@
+{
+  "name": "Proxy Authenticator",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "minimum_chrome_version":"31.0.0",
+  "background": {
+    "scripts": ["authenticator.js"]
+  },
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
