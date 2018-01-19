@@ -1,6 +1,8 @@
 #!/bin/bash
 #
-# ADAPTED FROM: https://github.com/SeleniumHQ/docker-selenium/blob/3.7.1-argon/StandaloneChrome/entry_point.sh
+# This bash script is the entrypoint for the docker image that runs Chrome (headless).
+#
+# It configures the container for WebDriver, and then starts the Python application.
 #
 source /opt/bin/functions.sh
 
